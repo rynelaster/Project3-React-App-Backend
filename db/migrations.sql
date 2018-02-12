@@ -22,7 +22,7 @@ CREATE TABLE places{
 	id SERIAL PRIMARY KEY,
 	restaurant_id INT REFERENCES restaurants(id),
 	bar_id INT REFERENCES bars(id),	
-	age BOOLEAN(21+),
+	age BOOLEAN,
 	food BOOLEAN
 
 };
