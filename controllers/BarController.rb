@@ -1,0 +1,13 @@
+class BarController < ApplicationController
+
+
+
+
+
+
+
+
+
+
+	
+end

@@ -1,0 +1,15 @@
+class RestaurantController < ApplicationController
+
+
+
+
+
+
+
+
+
+
+
+
+
+end
