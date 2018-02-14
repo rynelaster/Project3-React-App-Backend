@@ -1,19 +1,106 @@
-INSERT INTO restaurants () VALUES ()
-INSERT INTO restaurants () VALUES ()
-INSERT INTO restaurants () VALUES ()
-INSERT INTO restaurants () VALUES ()
-INSERT INTO restaurants () VALUES ()
-INSERT INTO restaurants () VALUES ()
-INSERT INTO restaurants () VALUES ()
-INSERT INTO bars () VALUES ()
-INSERT INTO bars () VALUES ()
-INSERT INTO bars () VALUES ()
-INSERT INTO bars () VALUES ()
-INSERT INTO bars () VALUES ()
-INSERT INTO bars () VALUES ()
-INSERT INTO bars () VALUES ()
-INSERT INTO places () VALUES ()
-INSERT INTO places () VALUES ()
-INSERT INTO places () VALUES ()
-INSERT INTO places () VALUES ()
-INSERT INTO places () VALUES ()
+INSERT INTO restaurants (name, description, location) VALUES ('Clever Rabbit', 'Mostly Vegetarian, but has a great burger', 'Wicker Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Quiote', 'Authentic, reasonably priced Mexican food', 'Logan Square');
+INSERT INTO restaurants (name, description, location) VALUES ('Avec', 'Small, shareable plates', 'West Loop');
+INSERT INTO restaurants (name, description, location) VALUES ('Publican Anker', 'Lively and upbeat. Great date spot', 'Bucktown');
+INSERT INTO restaurants (name, description, location) VALUES ('Big Star', 'Tacos; Awesome, huge patio; Great Music and cocktails', 'Wicker Park');
+INSERT INTO restaurants (name, description, location) VALUES ('The Bad Hunter', 'Veggie forward; Big cocktail list', 'West Loop');
+INSERT INTO restaurants (name, description, location) VALUES ('The Delta', 'Great fried chicken and Southern cuisine; Blues music', 'Bucktown');
+INSERT INTO restaurants (name, description, location) VALUES ('Lula Cafe', 'Great brunch spot; Market-driven, rotating menu', 'Logan Square');
+INSERT INTO restaurants (name, description, location) VALUES ('Longman & Eagle', 'Hipster spot; Farm to table; Whiskey Bar', 'Logan Square');
+INSERT INTO restaurants (name, description, location) VALUES ('Fat Rice', 'Asian-inspired global dishes; communal tables', 'Logan Square');
+INSERT INTO restaurants (name, description, location) VALUES ('Pequods Pizaa', 'Deep dish specialists; Blackhawks bar', 'Lincoln Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Kumas Corner', 'Heavy metal burger & craft beer bar', 'Avondale');
+INSERT INTO restaurants (name, description, location) VALUES ('Honey Butter Fried Chicken', 'Best fried chicken; Get there early', 'Avondale');
+INSERT INTO restaurants (name, description, location) VALUES ('Cafe Ba-Ba-Reeba', 'Spanish Tapas', 'Lincoln Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Sushi-San', 'Sushi and hip-hop', 'River North');
+INSERT INTO restaurants (name, description, location) VALUES ('Pink Squirrel', '60s inspired supper club', 'Logan Square');
+INSERT INTO restaurants (name, description, location) VALUES ('Bellemore', 'Eastern European themed', 'West Loop');
+INSERT INTO restaurants (name, description, location) VALUES ('Green Street Smoked Meats', 'BBQ and cocktails', 'West Loop');
+INSERT INTO restaurants (name, description, location) VALUES ('Smoque BBQ', 'BYOB BBQ', 'Irving Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Hash', 'Brunch spot; Picture-worthy meals', 'Humbolt Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Lockdown', 'Heavy metal and burgers', 'Wicker Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Fifolet', 'Cajun food and great specials', 'Wicker Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Homeslice', 'Lively atmosphere and good pizza', 'Lincoln Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Happy Camper', 'Same as Homeslice but in Old Town', 'Old Town');
+INSERT INTO restaurants (name, description, location) VALUES ('Prost', 'Huge pretzels; German beer hall; Order a boot', 'Lincoln Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Tuco & Blondie', 'Great Mexican food and patio', 'Lakeview');
+INSERT INTO restaurants (name, description, location) VALUES ('Piece', 'Thin crust pizza and house beer', 'Wicker Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Parlor Pizza', 'Bloody Mary bar and huge pizzas', 'West Loop');
+INSERT INTO restaurants (name, description, location) VALUES ('Furious Spoon', 'Great Ramen joint', 'Logan Square');
+INSERT INTO restaurants (name, description, location) VALUES ('Als Italian Beef', 'Arguably the best beef spot', 'Lakeview');
+INSERT INTO restaurants (name, description, location) VALUES ('The Golden Apple', 'Best diner in the city', 'Lincoln Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Carnivore', 'Best butcher/sandwich shop in the city; Pricy', 'Oak Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Oyster Bah', 'Great fresh seafood and shellfish', 'Lincoln Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Duseks', 'Get the mussells and see a concert at Thalia hall', 'Pilsen');
+INSERT INTO restaurants (name, description, location) VALUES ();
+INSERT INTO restaurants (name, description, location) VALUES ();
+
+INSERT INTO bars (name, description, location) VALUES ('California Clipper', 'Great live music, $5 cover', 'Humbolt Park');
+INSERT INTO bars (name, description, location) VALUES ('Rainbo Club', 'Dive bar', 'Wicker Park');
+INSERT INTO bars (name, description, location) VALUES ('The Sixth', 'Interesting drinks and cocktails', 'Lincoln Square/Ravenswood');
+INSERT INTO bars (name, description, location) VALUES ('Queen Mary', 'Mairtime themed dive bar with great cocktails', 'Wicker Park');
+INSERT INTO bars (name, description, location) VALUES ('Todos Santos', 'Bar in the basement of Quiote; great Mezcal drinks', 'Logan Square');
+INSERT INTO bars (name, description, location) VALUES ('Scofflaw', 'Gin and craft beer bar', 'Logan Square');
+INSERT INTO bars (name, description, location) VALUES ('Revolution Brewery', 'Chicago brewery and bar food', 'Logan Square');
+INSERT INTO bars (name, description, location) VALUES ('Kingston Mines', 'Live music, 4am bar', 'Lincoln Park');
+INSERT INTO bars (name, description, location) VALUES ('Rootstock', 'Wine & Beer bar', 'Ukrainian Village');
+INSERT INTO bars (name, description, location) VALUES ('Owen & Engine', 'British pub with a fireplace', 'Avondale');
+INSERT INTO bars (name, description, location) VALUES ('Bunny Slope', 'Lodge-themed ski lounge', 'Near North Side')
+INSERT INTO bars (name, description, location) VALUES ('Kaiser Tiger', 'Beer hall; Huge patio with activities', 'West Loop');
+INSERT INTO bars (name, description, location) VALUES ('Prairie School', 'Frank Lloyd Wright themed bar', 'Fulton Market');
+INSERT INTO bars (name, description, location) VALUES ('BLVD', '50s themed cocktail bar', 'River North');
+INSERT INTO bars (name, description, location) VALUES ('Blind Barber', 'Speak easy in a haircut joint', 'Fulton Market');
+INSERT INTO bars (name, description, location) VALUES ('Emporium', 'Beercade and pop-up bars', 'Logan Square');
+INSERT INTO bars (name, description, location) VALUES ('Metropolitan Brewing', 'English style beers; Great views', 'Avondale');
+INSERT INTO bars (name, description, location) VALUES ('Deadbolt', 'Cheap beers and chicken nuggets', 'Logan Square');
+INSERT INTO bars (name, description, location) VALUES ('Cindys Rooftop', 'Expensive view of the Bean and parks', 'South Loop');
+INSERT INTO bars (name, description, location) VALUES ('The Charleston', 'Cash bar', 'Wicker Park');
+INSERT INTO bars (name, description, location) VALUES ('The Violet Hour', 'Speakeasy; Across from Big Star; Outside mural changes', 'Wicker Park');
+INSERT INTO bars (name, description, location) VALUES ('Hopleaf', 'Best craft beer bar', 'Andersonville');
+INSERT INTO bars (name, description, location) VALUES ('Half Acre Brewing', 'Burritos, communal benches and games', 'Ravenswood');
+INSERT INTO bars (name, description, location) VALUES ('Lost Lake', 'Tiki bar; Very strong drinks!', 'Logan Square');
+INSERT INTO bars (name, description, location) VALUES ('Delilahs', 'Hipster-metalhead escape from Lincoln Park', 'Lincoln Park');
+INSERT INTO bars (name, description, location) VALUES ('The Whistler', 'Where a bar and an art gallery meet; Live music', 'Logan Square');
+INSERT INTO bars (name, description, location) VALUES ('Old Town Ale House', 'Dive bar in Old Town; Open till 4am', 'Old Town');
+INSERT INTO bars (name, description, location) VALUES ('Sportsmans Club', 'New age dive bar with old school bar games', 'Ukrainian Village');
+INSERT INTO bars (name, description, location) VALUES ('Wrigley Field', 'Chicagos biggest bar; Where the Cubs play', 'Lakeview');
+INSERT INTO bars (name, description, location) VALUES ('Twisted Spoke', 'Bloody Mary & burger biker bar', 'West Town');
+INSERT INTO bars (name, description, location) VALUES ('Three Dots & A Dash', 'Tiki Speakeasy', 'River North');
+INSERT INTO bars (name, description, location) VALUES ('Aviary', 'Mixology cocktail bar', 'West Town');
+INSERT INTO bars (name, description, location) VALUES ();
+INSERT INTO bars (name, description, location) VALUES ();
+INSERT INTO bars (name, description, location) VALUES ();
+INSERT INTO bars (name, description, location) VALUES ();
+
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES ();
