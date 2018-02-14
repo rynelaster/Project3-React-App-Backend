@@ -62,29 +62,31 @@ INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Todos Santos', 'Bar in the basement of Quiote; great Mezcal drinks', 'Mexican', 4, 'true', 'true', 'true');
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Scofflaw', 'Gin and craft beer bar', 'None', 4, 'false', 'true', 'true');
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Revolution Brewery', 'Chicago brewery and bar food', 'American', 4, 'true', 'true', 'true');
-INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Kingston Mines', 'Live music, 4am bar', 'American', 5, 'true', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Kingston Mines', 'Live music, 4am bar', 'Bites', 5, 'true', 'true', 'true');
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Rootstock', 'Wine & Beer bar', 'None', 15, 'false', 'true', 'true');
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Owen & Engine', 'British pub with a fireplace', 'English', 6, 'true', 'true', 'true');
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Bunny Slope', 'Lodge-themed ski lounge', 'None', 17, 'false', 'true', 'true');
-INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES();
-INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES();
-INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES();
-INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES();
-INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES();
-INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES();
-INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES();
-INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES();
-INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES();
-INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES();
-
-
-
-
-
-
-
-
-
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Kaiser Tiger', 'Beer hall; Huge patio with activities', 'German', 2, 'true', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Prairie School', 'Frank Lloyd Wright themed bar', 'None', 18, 'false', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('BLVD', '50s themed cocktail bar', 'None', 7, 'false', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Blind Barber', 'Speak easy in a haircut joint', 'None', 18, 'false', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Emporium', 'Beercade and pop-up bars', 'None', 4, 'false', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Metropolitan Brewing', 'English style beers; Great views', 'American', 6, 'true', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Deadbolt', 'Cheap beers and chicken nuggets', 'Bites', 4, 'true', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Cindys Rooftop', 'Expensive view of the Bean and parks', 'American', 19, 'true', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('The Charleston', 'Cash bar', 'None', 1, 'false', 'true','true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('The Violet Hour', 'Speakeasy; Across from Big Star; Outside mural changes', 'None', 1, 'false', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Hopleaf', 'Best craft beer bar', 'Bites', 20, 'true', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Half Acre Brewing', 'Burritos, communal benches and games', 'American', 14, 'true', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Lost Lake', 'Tiki bar; Very strong drinks!', 'Bites', 4, 'true', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Delilahs', 'Hipster-metalhead escape from Lincoln Park', 'None', 5, 'false', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('The Whistler', 'Where a bar and an art gallery meet; Live music', 'Bites', 4, 'true', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Old Town Ale House', 'Dive bar in Old Town; Open till 4am', 'None', 10, 'false', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Sportsmans Club', 'New age dive bar with old school bar games', 'Bites', 16, 'true', 'true','true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Wrigley Field', 'Chicagos biggest bar; Where the Cubs play', 'American', 11, 'true', 'true', 'false');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Twisted Spoke', 'Bloody Mary & burger biker bar', 'American', 21, 'true', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Three Dots & A Dash', 'Tiki Speakeasy', 'Bites', 7, 'true', 'true', 'true');
+INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Aviary', 'Mixology cocktail bar', 'None', 21, 'false', 'true', 'true');
 
 
 
