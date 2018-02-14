@@ -17,7 +17,7 @@ INSERT INTO restaurants (name, description, location) VALUES ('Pink Squirrel', '
 INSERT INTO restaurants (name, description, location) VALUES ('Bellemore', 'Eastern European themed', 'West Loop');
 INSERT INTO restaurants (name, description, location) VALUES ('Green Street Smoked Meats', 'BBQ and cocktails', 'West Loop');
 INSERT INTO restaurants (name, description, location) VALUES ('Smoque BBQ', 'BYOB BBQ', 'Irving Park');
-INSERT INTO restaurants (name, description, location) VALUES ('Hash', 'Brunch spot; Picture-worthy meals', 'Humbolt Park');
+INSERT INTO restaurants (name, description, location) VALUES ('Hash', 'Brunch spot; Picture-worthy meals', 'Humboldt Park');
 INSERT INTO restaurants (name, description, location) VALUES ('Lockdown', 'Heavy metal and burgers', 'Wicker Park');
 INSERT INTO restaurants (name, description, location) VALUES ('Fifolet', 'Cajun food and great specials', 'Wicker Park');
 INSERT INTO restaurants (name, description, location) VALUES ('Homeslice', 'Lively atmosphere and good pizza', 'Lincoln Park');
@@ -37,7 +37,7 @@ INSERT INTO restaurants (name, description, location) VALUES ();
 
 INSERT INTO bars (name, description, location) VALUES ('California Clipper', 'Great live music, $5 cover', 'Humbolt Park');
 INSERT INTO bars (name, description, location) VALUES ('Rainbo Club', 'Dive bar', 'Wicker Park');
-INSERT INTO bars (name, description, location) VALUES ('The Sixth', 'Interesting drinks and cocktails', 'Lincoln Square/Ravenswood');
+INSERT INTO bars (name, description, location) VALUES ('The Sixth', 'Interesting drinks and cocktails', 'Lincoln Square');
 INSERT INTO bars (name, description, location) VALUES ('Queen Mary', 'Mairtime themed dive bar with great cocktails', 'Wicker Park');
 INSERT INTO bars (name, description, location) VALUES ('Todos Santos', 'Bar in the basement of Quiote; great Mezcal drinks', 'Logan Square');
 INSERT INTO bars (name, description, location) VALUES ('Scofflaw', 'Gin and craft beer bar', 'Logan Square');
@@ -96,8 +96,7 @@ INSERT INTO places () VALUES ();
 INSERT INTO places () VALUES ();
 INSERT INTO places () VALUES ();
 INSERT INTO places () VALUES ();
-INSERT INTO places () VALUES ();
-INSERT INTO places () VALUES ();
+INSERT INTO places () VALUES (); 
 INSERT INTO places () VALUES ();
 INSERT INTO places () VALUES ();
 INSERT INTO places () VALUES ();

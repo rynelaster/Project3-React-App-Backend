@@ -1,7 +1,13 @@
 class RestaurantController < ApplicationController
 
-	get '/' do
+	get '/' do 
 		@restaurants = Restaurant.all
+		@restaurants.to_json
+		# p 'hey show me this'
+	end
+
+	get '/:id' do
+		@restaurants = Restaurant.find params[:id]
 		@restaurants.to_json
 	end
 

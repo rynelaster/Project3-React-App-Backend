@@ -7,6 +7,7 @@ require './models/PlaceModel'
 require './models/RestaurantModel'
 
 
+
 map ('/') {
 	run ApplicationController
 }

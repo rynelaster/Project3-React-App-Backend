@@ -4,9 +4,9 @@ class ApplicationController < Sinatra::Base
 	Bundler.require
 
 	ActiveRecord::Base.establish_connection(
-		:adapter => 'postgresql'.
+		:adapter => 'postgresql',
 		:database => 'establishment'
-
+		# :database => 'estabas2'
 	)
 
 	register Sinatra::CrossOrigin
@@ -29,4 +29,10 @@ class ApplicationController < Sinatra::Base
 
 		respnse.headers['Access-Control-Allow-Headers'] = 'X-Requested-With, X-HTTP-Method-Override, Content-Type, Cache-Control, Accept'
 	end
+
+	get '/' do
+		@page = "hello"
+	end
+
+
 end
