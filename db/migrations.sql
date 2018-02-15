@@ -31,20 +31,20 @@ CREATE DATABASE establishment;
 
 
 
--- CREATE TABLE restaurants(
--- 	id SERIAL PRIMARY KEY,
--- 	name VARCHAR(125),
--- 	description VARCHAR(250),
--- 	location VARCHAR(125)
--- 	neighborhood_id VARCHAR(125) REFERENCES neighborhoods(id)
--- );
+CREATE TABLE restaurants(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(125),
+	description VARCHAR(250),
+	location VARCHAR(125)
+	neighborhood_id VARCHAR(125) REFERENCES neighborhoods(id)
+);
 
--- CREATE TABLE bars(
--- 	id SERIAL PRIMARY KEY,
--- 	name VARCHAR(125),
--- 	description VARCHAR(250),
--- 	neighborhood_id VARCHAR(125) REFERENCES neighborhoods(id)
--- );
+CREATE TABLE bars(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(125),
+	description VARCHAR(250),
+	neighborhood_id VARCHAR(125) REFERENCES neighborhoods(id)
+);
 
 CREATE TABLE neighborhoods(
 	id SERIAL PRIMARY KEY,

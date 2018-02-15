@@ -1,12 +1,33 @@
 class BarController < ApplicationController
 	
+	# get '/' do
+	# 	@bars = Bar.all
+	# 	@bars.to_json
+	# end
+
 	get '/' do
-		@bars = Bar.all
+		# @bars = Place.where(bar: true, restaurant: false)
+		@bars = Place
+			.joins(:neighborhood)
+			.select('places.id,places.name,places.description,neighborhoods.id as neighborhood_id,neighborhoods.name as location')
+			.where(bar: true, restaurant: false) # thanks https://stackoverflow.com/a/22312979/8503076
 		@bars.to_json
 	end
 
+	# this route maps to '/bars/neighborhoods/:id'
+	get '/neighborhoods/:id' do 
+
+		@bars = Place
+			.joins(:neighborhood)
+			.select('places.id,places.name,places.description,neighborhoods.id as neighborhood_id,neighborhoods.name as location')
+			.where(bar: true, restaurant: false, neighborhood_id: params[:id].to_i)
+
+		@bars.to_json
+
+	end
+
 	# get '/' do
-	# 	@bars = Places.where(bar: true)
+	# 	@bars = Places.where(bar: true & rest==false)
 	# 	bars.to_json
 	# end
 # NEIGHTBORODD CONTROLLER
@@ -32,6 +53,8 @@ class BarController < ApplicationController
 # 			rest in neigh = places where nid = 
 
 # -----
+
+
 	get '/:id' do
 		@bars = Bar.find params[:id]
 		@bars.to_json

@@ -16,10 +16,10 @@ INSERT INTO neighborhoods (name) VALUES ('Lincoln Square');
 INSERT INTO neighborhoods (name) VALUES ('Ukrainian Village');
 INSERT INTO neighborhoods (name) VALUES ('Near North Side');
 INSERT INTO neighborhoods (name) VALUES ('Fulton Market');
-INSERT INTO neighborhoods (name) VALUEs ('South Loop');
-INSERT INTO neighborhoods (name) VALUEs ('Andersonville');
-INSERT INTO neighborhoods (name) VALUEs ('West Town');
-INSERT INTO neighborhoods (name) VALUEs ('Rogers Park');
+INSERT INTO neighborhoods (name) VALUES ('South Loop');
+INSERT INTO neighborhoods (name) VALUES ('Andersonville');
+INSERT INTO neighborhoods (name) VALUES ('West Town');
+INSERT INTO neighborhoods (name) VALUES ('Rogers Park');
 
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES ('Clever Rabbit', 'Mostly vegetarian, but has a great burger', 'Vegetarian', 1, 'true', 'true', 'false');
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Quiote', 'Authentic, reasonably priced Mexican food', 'Mexican', 4, 'true', 'true', 'false');
@@ -38,7 +38,7 @@ INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Sushi-San', 'Sushi and hip-hop', 'Asian', 7, 'true', 'true', 'false');
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Pink Squirrel', '60s inspired supper club', 'American', 4, 'true', 'false', 'false');
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Bellemore', 'Eastern European themed', 'European', 2, 'true', 'true', 'false');
-INSERT INTO restaurants (name, description, location) VALUES ('Green Street Smoked Meats', 'BBQ and cocktails', 'American', 2, 'true', 'true', 'false');
+-- INSERT INTO restaurants (name, description, location) VALUES ('Green Street Smoked Meats', 'BBQ and cocktails', 'American', 2, 'true', 'true', 'false');
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Smoque BBQ', 'BYOB BBQ', 'American' 8, 'true', 'false', 'false');
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Hash', 'Brunch spot; Picture-worthy meals', 'American', 9 'true', 'true', 'false');
 INSERT INTO places (name, description, cuisine, neighborhood_id, restaurant, bar, age) VALUES('Lockdown', 'Heavy metal and burgers', 'American', 1, 'true', 'true', 'true');

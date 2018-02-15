@@ -1,10 +1,33 @@
 class RestaurantController < ApplicationController
 
+
+# this route goes to '/restaurants'
 	get '/' do 
-		@restaurants = Restaurant.all
+
+		@restaurants = Place
+			.joins(:neighborhood)
+			.select('places.id,places.name,places.description,neighborhoods.id as neighborhood_id,neighborhoods.name as location')
+			.where(bar: true, restaurant: true)
 		@restaurants.to_json
-		# p 'hey show me this'
 	end
+
+	get '/neighborhoods/:id' do
+
+		@restaurants = Place
+			.joins(:neighborhood)
+			.select('places.id,places.name,places.description,neighborhoods.id as neighborhood_id,neighborhoods.name as location')
+			.where(bar: true, restaurant: true, neighborhood_id: params[:id].to_i) 
+		
+		@restaurants.to_json
+	end
+
+
+
+	# get '/' do 
+	# 	@restaurants = Restaurant.all
+	# 	@restaurants.to_json
+	# 	# p 'hey show me this'
+	# end
 
 	get '/:id' do
 		@restaurants = Restaurant.find params[:id]

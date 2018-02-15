@@ -1,6 +1,5 @@
 class Place < ActiveRecord::Base
 
-	has_many :restaurants
-	has_many :bars
+	belongs_to :neighborhood
 
 end
